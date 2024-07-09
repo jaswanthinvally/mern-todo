@@ -2,13 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import InputArea from './assets/components/InputArea'
+import Madeby from './assets/components/Madeby'
+import Dataarea from './assets/components/Dataarea'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div>
-  <h1>TO DO LIST</h1>
   <InputArea/>
-
-    
-  </div>
+  <Dataarea/>
+  
+  <Madeby/>
+</div>
 )
